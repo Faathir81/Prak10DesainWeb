@@ -1,0 +1,52 @@
+nav {
+  box-shadow: 0 0 20px 2px #6b9ba8;
+}
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #dbe6e9;
+}
+#Portofolio {
+  background-color: #dbe6e9;
+  height: 650px;
+}
+footer {
+  background-color: #6b9ba8;
+}
+.card {
+  box-shadow: 2px 5px 8px #6b9ba8;
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel-item {
+    width: 300px;
+    margin-left: 19%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .carousel-item {
+    width: 60%;
+    margin-left: 120px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .carousel-item {
+    width: 1000px;
+    padding-left: 120px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .carousel-item {
+    margin-left: 230px;
+    position: relative;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .carousel-item {
+    margin-left: 480px;
+    position: relative;
+  }
+}
